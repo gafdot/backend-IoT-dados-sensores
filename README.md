@@ -1,7 +1,3 @@
-Aqui está uma documentação completa para o projeto, incluindo instruções de instalação, configuração, uso e detalhes sobre a arquitetura do sistema:
-
----
-
 # Projeto de Monitoramento com Express, SQLite, WebSocket e JWT
 
 Este projeto implementa uma API RESTful para um sistema de monitoramento de dados de sensores, usando `Express` como framework backend, `SQLite` como banco de dados, `Socket.IO` para comunicação em tempo real via WebSocket, e `JWT` para autenticação de usuários.
@@ -187,5 +183,3 @@ Este projeto é uma base sólida para aplicações de monitoramento e comunicaç
 - Configurar variáveis de ambiente para dados sensíveis (como `SECRET_KEY`).
 - Implementar estratégias de renovação de tokens para melhorar a experiência de usuário sem comprometer a segurança.
 - Aumentar a segurança CORS com uma lista de origens confiáveis.
-
----
